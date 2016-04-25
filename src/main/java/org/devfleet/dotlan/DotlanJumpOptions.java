@@ -20,29 +20,29 @@ public class DotlanJumpOptions extends DotlanOptions {
         return this;
     }
 
-    public int getJumpDriveCalibration() {
+    public int getJumpDriveCalibrationSkill() {
         return jumpDriveCalibration;
     }
 
-    public DotlanJumpOptions setJumpDriveCalibration(int jumpDriveCalibration) {
+    public DotlanJumpOptions setJumpDriveCalibrationSkill(int jumpDriveCalibration) {
         this.jumpDriveCalibration = jumpDriveCalibration;
         return this;
     }
 
-    public int getJumpFuelConservation() {
+    public int getJumpFuelConservationSkill() {
         return jumpFuelConservation;
     }
 
-    public DotlanJumpOptions setJumpFuelConservation(int jumpFuelConservation) {
+    public DotlanJumpOptions setJumpFuelConservationSkill(int jumpFuelConservation) {
         this.jumpFuelConservation = jumpFuelConservation;
         return this;
     }
 
-    public int getJumpFreighter() {
+    public int getJumpFreighterSkill() {
         return jumpFreighter;
     }
 
-    public DotlanJumpOptions setJumpFreighter(int jumpFreighter) {
+    public DotlanJumpOptions setJumpFreighterSkill(int jumpFreighter) {
         this.jumpFreighter = jumpFreighter;
         return this;
     }

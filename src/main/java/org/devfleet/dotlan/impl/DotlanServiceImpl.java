@@ -109,9 +109,9 @@ public class DotlanServiceImpl implements DotlanService {
         final StringBuilder b = new StringBuilder();
         b.append(options.getJumpShip());
         b.append(",");
-        b.append(options.getJumpDriveCalibration());
-        b.append(options.getJumpFuelConservation());
-        b.append(options.getJumpFreighter());
+        b.append(options.getJumpDriveCalibrationSkill());
+        b.append(options.getJumpFuelConservationSkill());
+        b.append(options.getJumpFreighterSkill());
         return b.toString();
     }
 }

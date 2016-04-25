@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DotlanOptions {
 
-    private List<String> waypoints = new ArrayList<>();
+    private final List<String> waypoints = new ArrayList<>();
 
     public final List<String> getWaypoints() {
         return waypoints;
@@ -15,6 +15,16 @@ public class DotlanOptions {
 
     public final <T extends DotlanOptions> T addWaypoint(final String waypoint) {
         this.waypoints.add(waypoint);
+        return (T)this;
+    }
+
+    public final <T extends DotlanOptions> T setWaypoints(final List<String> waypoints) {
+        this.waypoints.clear();
+        return addWaypoints(waypoints);
+    }
+
+    public final <T extends DotlanOptions> T addWaypoints(final List<String> waypoints) {
+        this.waypoints.addAll(waypoints);
         return (T)this;
     }
 
