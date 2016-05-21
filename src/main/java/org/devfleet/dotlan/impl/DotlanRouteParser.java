@@ -1,6 +1,8 @@
 package org.devfleet.dotlan.impl;
 
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
@@ -10,7 +12,6 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
-import org.apache.commons.lang.StringUtils;
 
 final class DotlanRouteParser {
     private final TransformerFactory transformerFactory;

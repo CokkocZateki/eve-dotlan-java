@@ -1,7 +1,6 @@
 package org.devfleet.dotlan;
 
-
-import org.apache.commons.lang.builder.HashCodeBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class DotlanJump {
 
