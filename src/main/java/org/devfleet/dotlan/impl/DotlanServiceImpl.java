@@ -1,6 +1,7 @@
 package org.devfleet.dotlan.impl;
 
-import org.apache.commons.lang3.StringUtils;
+
+import org.apache.commons.lang.StringUtils;
 import org.devfleet.dotlan.DotlanJumpOptions;
 import org.devfleet.dotlan.DotlanOptions;
 import org.devfleet.dotlan.DotlanRoute;

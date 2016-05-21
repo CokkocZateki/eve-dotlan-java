@@ -3,7 +3,7 @@ package org.devfleet.dotlan;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
 
 public class DotlanRoute {
 
@@ -39,6 +39,10 @@ public class DotlanRoute {
 
     public final int size() {
         return jumps.size();
+    }
+
+    public final boolean isEmpty() {
+        return this.jumps.isEmpty();
     }
 
     public final DotlanSolarSystem getFrom() {

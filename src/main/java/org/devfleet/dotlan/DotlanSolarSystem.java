@@ -1,6 +1,6 @@
 package org.devfleet.dotlan;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class DotlanSolarSystem {
 
-    private static Logger LOG = LoggerFactory.getLogger(DotlanSolarSystem.class);
+    private static final Logger LOG = LoggerFactory.getLogger(DotlanSolarSystem.class);
 
     private long solarSystemID;
     private String solarSystemName;
