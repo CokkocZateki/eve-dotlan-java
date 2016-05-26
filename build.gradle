@@ -3,9 +3,6 @@ apply plugin: 'maven'
 
 group = 'org.devfleet.dotlan'
 version = '0.1'
-    
-sourceCompatibility = JavaVersion.VERSION_1_7
-targetCompatibility = JavaVersion.VERSION_1_7
 
 repositories {
     mavenLocal()
